@@ -89,7 +89,7 @@ const Home = () => {
                   {item.content}
                 </Typography>
 
-                <Box sx={{ display: "flex", justifyContent: "space-between", marginTop: 2 }}>
+                <Box sx={{  display: "flex", marginTop: 2 }}>
                   <Button 
                     variant="contained" 
                     color="secondary"
