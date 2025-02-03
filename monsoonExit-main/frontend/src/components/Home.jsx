@@ -24,11 +24,11 @@ const Home = () => {
   const handleDelete = (id) => {
     axios.delete(`http://localhost:3001/delete/${id}`)
       .then(() => {
-        console.log("✅ Item deleted");
+        console.log("Item deleted");
         fetchData();
       })
       .catch((error) => {
-        console.error("❌ Error deleting item:", error);
+        console.error("Error deleting item:", error);
       });
   };
 
